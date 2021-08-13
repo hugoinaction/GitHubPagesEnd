@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /GitHubPagesEnd/plain/store/circle/
+Disallow: /GitHubPagesEnd/plain/store/line/
+Disallow: /GitHubPagesEnd/store/plain/
+Disallow: /GitHubPagesEnd/plain/store/rectangle/
+Disallow: /GitHubPagesEnd/plain/store/rhombus/
+Disallow: /GitHubPagesEnd/plain/store/square/

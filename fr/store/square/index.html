@@ -1,0 +1,193 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=description content="Un carré est un quadrilatère régulier, ce qui signifie qu&rsquo;il a quatre côtés égaux et quatre angles égaux">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://hugoinaction.github.io/GitHubPagesEnd/fr/store/square/cover.png">
+<meta name=twitter:title content="Carré">
+<meta name=twitter:description content="Un carré est un quadrilatère régulier, ce qui signifie qu&rsquo;il a quatre côtés égaux et quatre angles égaux">
+<meta property="og:title" content="Carré">
+<meta property="og:description" content="Un carré est un quadrilatère régulier, ce qui signifie qu&rsquo;il a quatre côtés égaux et quatre angles égaux">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hugoinaction.github.io/GitHubPagesEnd/fr/store/square/"><meta property="og:image" content="https://hugoinaction.github.io/GitHubPagesEnd/fr/store/square/cover.png"><meta property="article:section" content="store">
+<meta property="article:modified_time" content="2021-08-13T13:23:57-07:00">
+<link rel=manifest href=https://hugoinaction.github.io/GitHubPagesEnd/manifest.webmanifest>
+<link rel=icon type=image/png href=https://hugoinaction.github.io/GitHubPagesEnd/image/favicon_hue010d4fad590a87d325b7e07b2e61f59_2460_1e463977f25e99f95ee0709bc3be812b.png>
+<link rel=stylesheet type=text/css href=https://hugoinaction.github.io/GitHubPagesEnd/index.min.css>
+<title>Carré</title>
+<script type=text/javascript src=/GitHubPagesEnd/index.js defer></script>
+<template id=js-strings>
+{"i18n_EMAIL_SOON":"Votre produit sera bientôt envoyé par e-mail.","i18n_ORDER_CONFIRMED":"Commande confirmée.","serviceWorker":"https://hugoinaction.github.io/GitHubPagesEnd/serviceWorker.js"}
+</template>
+</head>
+<body class="store page">
+<header>
+<a href=/GitHubPagesEnd/fr>
+<img src=https://hugoinaction.github.io/GitHubPagesEnd/logo.svg alt="Acme Logo" width=48>
+Acme Corporation
+</a>
+<span id=search>
+<input type=search placeholder=Chercher>
+<div></div>
+</span>
+<span id=cart>
+<button>
+Cart
+<div class=badge></div>
+</button>
+<div>
+<div class=empty>
+Veuillez ajouter quelques articles au panier.
+</div>
+</div>
+</span>
+<nav>
+<button class=hamburger>&#9776;</button>
+<ul>
+<li>
+<a href=/GitHubPagesEnd/fr/about>À propos</a>
+</li>
+<li>
+<a href=/GitHubPagesEnd/fr/blog/>Blog</a>
+<ul>
+<li><a href=/GitHubPagesEnd/fr/blog/community/>Communauté</a></li>
+</ul>
+</li>
+<li>
+<a href=/GitHubPagesEnd/fr/store/>Magasin</a>
+</li>
+<li>
+<a href=/GitHubPagesEnd/fr/contact>Contact</a>
+</li>
+</ul>
+</nav>
+</header>
+<main>
+<img loading=lazy src=https://hugoinaction.github.io/GitHubPagesEnd/fr/store/square/cover_hu35f97a664bcf6577aecc824a58ddd500_75785_d6f2f0b091de897f666ec75ef6921bae.png alt=Carré>
+<div>
+<h1>Carré</h1>
+<div class=rating>
+&starf;&starf;&starf;&starf;&starf;
+</div>
+<p>Un carré est un quadrilatère régulier, ce qui signifie qu&rsquo;il a quatre côtés égaux et quatre angles égaux</p>
+<div class=price>$ 4 </div>
+<form>
+<input type=hidden name=name value=Carré>
+<label for=color-selector>Select Color</label>
+<div class=colors>
+<input type=radio name=color value=Red checked>
+<input type=radio name=color value=Pink>
+<input type=radio name=color value=Blue>
+</div>
+<button class=addToCart type=submit>Ajouter au panier</button>
+<button class=buyNow type=submit>Acheter maintenant</button>
+</form>
+<h2>Caractéristiques</h2>
+<ul>
+<li>En géométrie, un carré est un quadrilatère régulier, ce qui signifie qu&rsquo;il a quatre côtés égaux et quatre angles égaux (angles à 90 degrés, ou angles à 100 degrés ou angles droits).</li>
+<li>Il peut également être défini comme un rectangle dans lequel deux côtés adjacents ont la même longueur.</li>
+<li>Un losange avec un angle au sommet droit</li>
+<li>Un losange avec tous les angles égaux</li>
+<li>Un parallélogramme avec un angle au sommet droit et deux côtés égaux adjacents</li>
+<li>Un quadrilatère à quatre côtés égaux et quatre angles droits</li>
+<li>Un quadrilatère où les diagonales sont égales et sont les bissectrices perpendiculaires l&rsquo;une de l&rsquo;autre (c&rsquo;est-à-dire un losange avec des diagonales égales)</li>
+</ul>
+<h2 id=faits>Faits</h2>
+<p>Périmètre
+</p>
+<p>Zone
+</p>
+<p>Équation (où x et y sont des côtés)
+</p>
+</div>
+</main>
+<div class=comments>
+<h2> Comments </h2>
+<template id=comment-success>
+<div class=success>
+Votre commentaire a été soumis avec succès.
+</div>
+</template>
+<template id=comment-error>
+<div class=error>
+Nous sommes confrontés à un problème lors de la soumission du commentaire. Veuillez réessayer plus tard.
+</div>
+</template>
+<template id=comment-pre>
+<div class=comment>
+<img width=100 height=100 alt="[[name]] Avatar" src="https://www.gravatar.com/avatar/[[emailhash]]?s=100&d=wavatar">
+<div class=author>[[name]]</div>
+<div class=message>[[message]]</div>
+</div>
+</template>
+<form data-dynamic-form data-pre=#comment-pre data-success=#comment-success data-error=#comment-error action=https://formspree.io/f/xpzozyyg method=post>
+<input type=hidden name=url value=/GitHubPagesEnd/fr/store/square/>
+<div>
+<label for=name>Nom:</label>
+<input name=name type=text required>
+</div>
+<div>
+<label for=email>E-mail:</label>
+<input name=email type=email required>
+</div>
+<div>
+<label for=message>Commenter:</label>
+<textarea name=message cols=50 rows=10 required></textarea>
+</div>
+<div>
+<button type=submit>Envoyer</button>
+</div>
+</form>
+</div>
+<footer class=dark>
+<nav>
+<ul>
+<li>
+<a href=/GitHubPagesEnd/fr/blog/>Blog</a>
+</li>
+<li>
+<a href=/GitHubPagesEnd/fr/categories/>Catégories</a>
+</li>
+<li>
+<a href=/GitHubPagesEnd/fr/terms>Conditions d'utilisation</a>
+</li>
+<li>
+<a href=/GitHubPagesEnd/fr/privacy>Politique de confidentialité</a>
+</li>
+</ul>
+</nav>
+<ul>
+<li>
+<a href=/GitHubPagesEnd/fr/plain/store/square/ aria-label="Reader Mode" target=_blank>
+<i class=icon-reader></i>
+</a>
+</li>
+<li>
+<a href=https://facebook.com/example aria-label=Facebook>
+<i class=icon-facebook></i>
+</a>
+</li>
+<li>
+<a href=https://twitter.com/example aria-label=Twitter>
+<i class=icon-twitter></i>
+</a>
+</li>
+<li>
+<a href=mailto:contact@example.org aria-label=email>
+<i class=icon-email></i>
+</a>
+</li>
+</ul>
+<br>
+<ul>
+<li>Traductions:</li>
+<li>
+<a href=https://hugoinaction.github.io/GitHubPagesEnd/store/square/>en</a>
+</li>
+</ul>
+<div>droits d&rsquo;auteur © 2021 Acme Corporation. Tous les droits sont réservés.</div>
+</footer>
+<script src=/GitHubPagesEnd/jslibs/instantpage/instantpage.min.6f31bd4314fef1e53fc26468bd34861aa42aea1ad16a2452bb65cb9d8e655fb7.js integrity="sha256-bzG9QxT+8eU/wmRovTSGGqQq6hrRaiRSu2XLnY5lX7c="></script>
+</body>
+</html>
