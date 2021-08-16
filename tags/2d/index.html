@@ -21,7 +21,7 @@
 <body class="page list">
 <header>
 <a href=/GitHubPagesEnd>
-<img src=https://hugoinaction.github.io/GitHubPagesEnd/logo.svg alt="Acme Logo" width=48>
+<img src=https://hugoinaction.github.io/GitHubPagesEnd/logo.svg alt="Acme Logo" height=36 width=48>
 Acme Corporation
 </a>
 <span id=search>
@@ -82,10 +82,22 @@ Please add some items to the cart.
 <form>
 <input type=hidden name=name value=Circle>
 <div class=colors>
+<label>
 <input type=radio name=color value=Red checked>
+<span class=sr-only>Red</span>
+</label>
+<label>
 <input type=radio name=color value=Green>
+<span class=sr-only> Green</span>
+</label>
+<label>
 <input type=radio name=color value=Blue>
+<span class=sr-only> Blue</span>
+</label>
+<label>
 <input type=radio name=color value=Orange>
+<span class=sr-only> Orange</span>
+</label>
 </div>
 <button class=addToCart type=submit>Add to cart</button>
 </form>
@@ -102,7 +114,10 @@ Please add some items to the cart.
 <form>
 <input type=hidden name=name value=Rectangle>
 <div class=colors>
+<label>
 <input type=radio name=color value=Red checked>
+<span class=sr-only>Red</span>
+</label>
 </div>
 <button class=addToCart type=submit>Add to cart</button>
 </form>
@@ -119,7 +134,10 @@ Please add some items to the cart.
 <form>
 <input type=hidden name=name value=Rhombus>
 <div class=colors>
+<label>
 <input type=radio name=color value=Green checked>
+<span class=sr-only>Green</span>
+</label>
 </div>
 <button class=addToCart type=submit>Add to cart</button>
 </form>
@@ -154,6 +172,9 @@ Please add some items to the cart.
 </li>
 <li>
 <a href=/GitHubPagesEnd/privacy>Privacy policy</a>
+</li>
+<li>
+<a href=/GitHubPagesEnd/credits/>Credits</a>
 </li>
 </ul>
 </nav>

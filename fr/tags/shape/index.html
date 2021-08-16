@@ -21,7 +21,7 @@
 <body class="page list">
 <header>
 <a href=/GitHubPagesEnd/fr>
-<img src=https://hugoinaction.github.io/GitHubPagesEnd/logo.svg alt="Acme Logo" width=48>
+<img src=https://hugoinaction.github.io/GitHubPagesEnd/logo.svg alt="Acme Logo" height=36 width=48>
 Acme Corporation
 </a>
 <span id=search>
@@ -76,10 +76,22 @@ Veuillez ajouter quelques articles au panier.
 <form>
 <input type=hidden name=name value=Cercle>
 <div class=colors>
+<label>
 <input type=radio name=color value=Red checked>
+<span class=sr-only>Red</span>
+</label>
+<label>
 <input type=radio name=color value=Green>
+<span class=sr-only> Green</span>
+</label>
+<label>
 <input type=radio name=color value=Blue>
+<span class=sr-only> Blue</span>
+</label>
+<label>
 <input type=radio name=color value=Orange>
+<span class=sr-only> Orange</span>
+</label>
 </div>
 <button class=addToCart type=submit>Ajouter au panier</button>
 </form>
@@ -96,7 +108,10 @@ Veuillez ajouter quelques articles au panier.
 <form>
 <input type=hidden name=name value=Losange>
 <div class=colors>
+<label>
 <input type=radio name=color value=Green checked>
+<span class=sr-only>Green</span>
+</label>
 </div>
 <button class=addToCart type=submit>Ajouter au panier</button>
 </form>
@@ -113,7 +128,10 @@ Veuillez ajouter quelques articles au panier.
 <form>
 <input type=hidden name=name value=Rectangulaire>
 <div class=colors>
+<label>
 <input type=radio name=color value=Red checked>
+<span class=sr-only>Red</span>
+</label>
 </div>
 <button class=addToCart type=submit>Ajouter au panier</button>
 </form>
